@@ -66,9 +66,9 @@
     "itm": false
   },
   "XOM": {
-    "signal": "HOLD",
+    "signal": "BUY_PUT",
     "exp": "2025-08-29",
-    "strike": null,
+    "strike": 105.0,
     "itm": false
   },
   "NVDA": {
