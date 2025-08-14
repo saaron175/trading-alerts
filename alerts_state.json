@@ -1,0 +1,98 @@
+{
+  "SPY": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "AAPL": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "CVX": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "AMZN": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "QQQ": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "GLD": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "SLV": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "PLTR": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "USO": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "NFLX": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "TNA": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "XOM": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "NVDA": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "BAC": {
+    "signal": "BUY_CALL",
+    "exp": "2025-08-29",
+    "strike": 48.0,
+    "itm": false
+  },
+  "TSLA": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  },
+  "META": {
+    "signal": "HOLD",
+    "exp": "2025-08-29",
+    "strike": null,
+    "itm": false
+  }
+}
