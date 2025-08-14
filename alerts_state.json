@@ -12,9 +12,9 @@
     "itm": false
   },
   "CVX": {
-    "signal": "BUY_CALL",
+    "signal": "HOLD",
     "exp": "2025-08-29",
-    "strike": 160.0,
+    "strike": null,
     "itm": false
   },
   "AMZN": {
