@@ -14,7 +14,7 @@
   "CVX": {
     "signal": "BUY_CALL",
     "exp": "2025-08-29",
-    "strike": 157.5,
+    "strike": 160.0,
     "itm": false
   },
   "AMZN": {
