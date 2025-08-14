@@ -78,9 +78,9 @@
     "itm": false
   },
   "BAC": {
-    "signal": "BUY_CALL",
+    "signal": "HOLD",
     "exp": "2025-08-29",
-    "strike": 48.0,
+    "strike": null,
     "itm": false
   },
   "TSLA": {
