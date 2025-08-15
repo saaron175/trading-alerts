@@ -1,0 +1,25 @@
+name: Trading Alerts
+
+on:
+  schedule:
+    - cron: "*/15 13-20 * * 1-5"   # every 15 min, 8:00–3:59 pm CST (13–20 UTC)
+  workflow_dispatch:
+
+jobs:
+  run-alerts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Install deps
+        run: |
+          pip install --upgrade pip
+          pip install yfinance requests pandas
+      - name: Run alerts
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+        run: python alerts.py
